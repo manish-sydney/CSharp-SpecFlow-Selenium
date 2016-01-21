@@ -6,7 +6,7 @@
 
 ### Environment Setup
 
-## Note: Purchasing [SpecFlow+](http://www.specflow.org/plus/) is needed to run tests in parallel.
+#### Note: Purchasing [SpecFlow+](http://www.specflow.org/plus/) is needed to run tests in parallel.
 
 1. Dependencies:
     * MS Visual Studio 2013 or later.
@@ -22,10 +22,11 @@
     SAUCE_ACCESS_KEY=<your Sauce Labs access key>
     ```
 ### Running Tests
+Open the project via the solution file: SauceLabsSpecflowDemo.sln
 
 Clean and Build the project
 
-Use the VS test runner to "Run All"
+Use the VS Test Explorer to "Run All"
 
 [Sauce Labs Dashboard](https://saucelabs.com/beta/dashboard/)
 
