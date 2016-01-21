@@ -11,6 +11,9 @@
 1. Dependencies:
     * MS Visual Studio 2013 or later.
     * Install the SpecFlow extension in Visual Studio
+* Install NuGet packages for the project: <br>
+```cd Packages```<br>
+```nuget.exe install ..\SauceLabsSpecflowDemo\packages.config```<br>
 
 2. Sauce Credentials
     * Create the following system environmental variables:
