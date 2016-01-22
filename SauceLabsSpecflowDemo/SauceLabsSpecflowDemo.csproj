@@ -36,7 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Selenium.WebDriverBackedSelenium">
-      <HintPath>..\..\..\..\..\Downloads\selenium-dotnet-2.48.0\net40\Selenium.WebDriverBackedSelenium.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\selenium-dotnet-2.48.0\net40\Selenium.WebDriverBackedSelenium.dll</HintPath>
     </Reference>
     <Reference Include="SpecRun.SpecFlowPlugin, Version=1.2.0.15, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SpecRun.SpecFlow.1.2.0\lib\net35\SpecRun.SpecFlowPlugin.dll</HintPath>
@@ -52,13 +52,13 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="ThoughtWorks.Selenium.Core">
-      <HintPath>..\..\..\..\..\Downloads\selenium-dotnet-2.48.0\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\selenium-dotnet-2.48.0\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
     </Reference>
     <Reference Include="WebDriver">
-      <HintPath>..\..\..\..\..\Downloads\selenium-dotnet-2.48.0\net40\WebDriver.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\selenium-dotnet-2.48.0\net40\WebDriver.dll</HintPath>
     </Reference>
     <Reference Include="WebDriver.Support">
-      <HintPath>..\..\..\..\..\Downloads\selenium-dotnet-2.48.0\net40\WebDriver.Support.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\selenium-dotnet-2.48.0\net40\WebDriver.Support.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Choose>
