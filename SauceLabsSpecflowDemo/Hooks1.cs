@@ -17,9 +17,9 @@ namespace SauceLabsSpecflowDemo
         public void BeforeScenario()
         {
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.SetCapability(CapabilityType.BrowserName, "chrome");
-            capabilities.SetCapability(CapabilityType.Version, "47.0");
-            capabilities.SetCapability(CapabilityType.Platform, "OS X 10.10");
+            capabilities.SetCapability(CapabilityType.BrowserName, Environment.GetEnvironmentVariable("browserName"));
+            capabilities.SetCapability(CapabilityType.Version, Environment.GetEnvironmentVariable("version"));
+            capabilities.SetCapability(CapabilityType.Platform, Environment.GetEnvironmentVariable("platformOs"));
             capabilities.SetCapability("username", Environment.GetEnvironmentVariable("SAUCE_USERNAME"));
             capabilities.SetCapability("accessKey", Environment.GetEnvironmentVariable("SAUCE_ACCESS_KEY"));
             capabilities.SetCapability("name", ScenarioContext.Current.ScenarioInfo.Title);
