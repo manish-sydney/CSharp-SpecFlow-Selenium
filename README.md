@@ -24,6 +24,8 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
    ####Parallel Tests via Visual Studio
 Open the project via the solution file: SauceLabsSpecflowDemo.sln
 
+Hard code in desired capabilities in the Hooks.cs file where it gets environmental variables
+
 Clean and Build the project
 
 Use the VS Test Explorer to "Run All"
