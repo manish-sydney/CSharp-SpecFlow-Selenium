@@ -8,8 +8,8 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
 1. Dependencies:
     * MS Visual Studio 2013 or later.
     * Install the SpecFlow extension in Visual Studio
-    * Install NuGet and put in PATH
-    * Install [GNU-Make](https://www.gnu.org/software/make/) and put in PATH (For cross browser testing)
+    * Install NuGet / CLI executable installed in your path
+    * Install [GNU-Make](https://www.gnu.org/software/make/) / CLI executable installed in your path (For cross browser testing)
     * Install NuGet packages for the project: <br>
 ```cd Packages```<br>
 ```nuget.exe install ..\SauceLabsSpecflowDemo\packages.config```<br>
