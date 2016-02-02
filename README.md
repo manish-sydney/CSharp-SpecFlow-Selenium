@@ -31,8 +31,7 @@ Clean and Build the project
 Use the VS Test Explorer to "Run All"
 
 #### Cross Browser Tests with GNU-Make
-CD into the project folder
-Run:
+In a Developer Console, CD into the project folder and run:
 ```
 make all
 ```
