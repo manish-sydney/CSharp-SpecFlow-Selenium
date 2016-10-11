@@ -24,7 +24,7 @@ namespace SauceLabsSpecflowDemo
             capabilities.SetCapability("accessKey", Environment.GetEnvironmentVariable("SAUCE_ACCESS_KEY"));
             capabilities.SetCapability("name", ScenarioContext.Current.ScenarioInfo.Title);
 
-            RemoteWebDriver webDriver = new RemoteWebDriver(new Uri("http://ondemand.saucelabs.com:80/wd/hub"), capabilities, TimeSpan.FromSeconds(600));
+            RemoteWebDriver webDriver = new RemoteWebDriver(new Uri("https://ondemand.saucelabs.com:443/wd/hub"), capabilities, TimeSpan.FromSeconds(600));
             webDriver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(20));
             ScenarioContext.Current["driver"] = webDriver;
         }
